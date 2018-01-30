@@ -1,0 +1,25 @@
+
+<html>
+  <head>
+    <title>A to-do app</title>
+  <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
+  <script src="/assets/todo-list.js"></script>
+
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <h1>My TODO App</h1>
+  <div id="todo-table">
+   <form>
+     <input type="text" placeholder="Add new item..." name="item" required />
+     <button type="submit">Add Item</button>
+   </form>
+   <ul>
+    <% for(var i=0;i<todos.length;i++) { %>
+      <li><b><%=todos[i].item%><b></li>
+
+    <%}%>
+   </ul>
+  </div>
+  </body>
+</html>
