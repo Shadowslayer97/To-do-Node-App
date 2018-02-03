@@ -5,10 +5,10 @@ A basic To-do list Node.js application using
 -Express js
 -body-parser
 
-##Output
+## Output
 To run the application open at localhost:3000 port and preferably using nodemon 
 
-###Thanks to
+### Thanks to
 The Net Ninja youtube
 
 
